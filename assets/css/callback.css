@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,500&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row-width {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 7px 0;
+    position: relative;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(194deg, rgba(0,0,0,0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../resources/images/IMG-20210103-WA0015.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    color: #fff;
+}
+
+.nav {
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.logo {
+    display: none;
+}
+
+.logo img {
+    height: 50%;
+}
+
+.logo span {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 12px;
+    letter-spacing: 2px;
+}
+
+nav {
+    font-family: 'Nunito', sans-serif;
+    margin: 24px auto;
+    display: inline-block;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 22px;
+}
+
+nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 3px;
+}
+
+nav li a.active {
+    border-bottom: 2.5px solid #fff;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.callback {
+    width: 100%;
+    padding: 50px 0 100px 0;
+}
+
+.callback form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.callback form input, .callback form textarea, .callback form button {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: 12px 4px;
+}
+
+.callback form textarea {
+    height: 200px;
+}
+
+.callback form button {
+    background-color: #f7c51e;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 50px 0 45px;
+    text-align: center;
+}
+
+footer a, footer p {
+    color: rgba(255, 255, 255, 0.623);
+    text-decoration: none;
+}
+
+footer a {
+    color: #f7c51e;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.whatsapp-cta {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    width: 200px;
+    background-color: #f7c51e;
+    color: #262626;
+    transition: all .2s;
+    margin: 30px auto 50px auto;
+}
+
+.whatsapp-cta:hover {
+    text-decoration: none;
+}
+
+.social-links {
+    margin: 24px auto;
+}
+
+.social-links a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    color: #0b0320;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 8px;
+}
+
+.social-links a:hover {
+    color: #0b0320;
+}
+
+.social-links i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-last {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 40px auto 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-last i {
+    font-size: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.callback-alert {
+    width: 700px;
+    margin: -20px auto 0 auto;
+}

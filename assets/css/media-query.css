@@ -1,0 +1,166 @@
+.pc {
+    display: inline-block;
+}
+
+.silver-pc {
+    display: block;
+}
+
+.phone, .silver-phone {
+    display: none;
+}
+
+.menu-btn {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .pc {
+        display: none;
+    
+    }
+
+    .phone {
+        display: inline-block;
+    }
+
+    .row-width {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .nav {
+        padding: 0 0;
+    }
+
+    .logo span {
+        font-size: 24px;
+    }
+
+    .menu-btn {
+        display: inline-block;
+        color: #eeb035;
+        font-size: 24px;
+        padding: 0 4px;
+        text-decoration: none;
+    }
+
+    .menu-btn:hover {
+        text-decoration: none;
+        color: #eeb035;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .silver-pc {
+        display: none;
+    }
+
+    .silver-phone {
+        display: block;
+    }
+
+    .h1-text {
+        width: 300px
+    }
+
+    .head-btn {
+        width: 200px;
+    }
+
+    .head-btn:last-of-type {
+        margin-top: 16px;
+    }
+
+    .email-head {
+        margin-top: 12px;
+    }
+
+    .email-head, .phone-head {
+        display: block;
+        color: #fff;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .email-head:hover, .phone-head:hover {
+        color: #fff;
+    }
+
+    .services, .about, .locations, .projects {
+        padding: 40px 0;
+    }
+
+    .services .col-md-3 {
+        padding: 20px;
+    }
+
+    .cat img {
+        width: 20%;
+    }
+
+    .about-us-image {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+
+    .projects-text, .locations-text {
+        width: 100%;
+    }
+
+    .project, .location {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .project-2 {
+        margin: 80px auto;
+    }
+
+    .project-name {
+        width: 85%;
+    }
+
+    .location-name {
+        margin: 8px auto;
+    }
+
+    /* CALLBACK FORM */
+
+    .callback form {
+        width: 90%;
+    }
+
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .callback form input, .callback form textarea, .callback form button {
+        margin: 12px 0;
+    }
+
+    .callback-alert {
+        width: 100%;
+        margin: -20px auto 0 auto;
+    }
+
+}
